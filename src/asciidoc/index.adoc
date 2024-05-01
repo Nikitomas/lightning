@@ -1,0 +1,24 @@
+= bne-lightning Documentation
+:toc:
+:toclevels: 3
+:docinfo1:
+:revnumber: {project-version}
+:imagesdir: images
+:sectnums:
+:source-highlighter: coderay
+:icons: font
+ifndef::sourcedir[:sourcedir: ../../test/java]
+
+image::logo.jpg[BNC,align="left",width=400]
+
+include::introduction.adoc[]
+
+.Artifact
+[source,xml,subs="attributes+"]
+----
+<dependency>
+    <groupId>ca.bnc.bne</groupId>
+    <artifactId>bne-lightning</artifactId>
+    <version>{project-version}</version>
+</dependency>
+----
